@@ -1,15 +1,40 @@
+select {
+  height: 32px;
+  background-color: #0D1010!important;
+  color: white;
+    font-family: 'Allfonts',Arial,sans-serif;
+    text-align: left;
+  margin-right: 10px;
+}
+
+.menu{
+  display: block;
+}
 a {
   color: inherit;
 }
 img {
   object-fit: contain;
 }
+.oll{
+  display: block;
+  margin-top: 20px;
+  float: left;
+}
+.oll2{
+  display: block;
+  margin-top: 20px;
+float: right;
+}
 body {
+  padding-left: 30px;
+  padding-right: 30px;
   background: #0D1010!important;
   font-family: 'Allfonts',Arial,sans-serif;
   color: #fff;
-  line-height:1.2; /* minimum line-height is always 1.2 for MOBI */
+  line-height: 190%; /* minimum line-height is always 1.2 for MOBI */
   text-align: left;
+  font-size: 14px;
 }
 body * {
   line-height: inherit;
@@ -90,7 +115,7 @@ ol {
 sup {vertical-align:inherit} /* avoid line spacing increase caused by "super" */
 
 /* OSIS tag classes (OSIS tags output by usfm2osis.py) */
-.osis-p  {text-indent:1.5em; margin: 0px; padding-left:0px;}
+.osis-p  {text-indent:1.5em; margin: 0px; padding-left:0px; font-size: 1.16em;}
 .osis-foreign,
 .osis-transChange,
 .osis-rdg,
@@ -115,17 +140,17 @@ a.osis-reference, .osis-reference2 {
   color: #0D1010;
   background: #ffffff;
   text-decoration: none;
-  padding: 12px 17px;
-  border-radius: 30px;
+  padding: 8px 13px;
+  border-radius: 25px;
   color: #0D1010;
-  font-size: 16px;
+  font-size: 14px;
   display: inline-block;
   text-align: center;
   text-indent: 0em;
 }
 .osis-reference.back{
   float: left;
-  margin-left: -3em;
+  margin-left: -4.7em;
 }
 .osis-reference.back::after{
   content: "Предыдущая"
