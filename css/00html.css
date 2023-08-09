@@ -573,12 +573,17 @@ table {
     display: inline-block;
     text-align: center;
     text-indent: 0em;
-    float: right;
+    
+}
+.osis-reference.next{
+  float: right;
+}
+.osis-reference.back{
+  float: left;
 }
 a.osis-reference, .osis-reference2 {
   text-decoration: underline;
   display: inline-block;
-  float: left;
 }
 img {
   width: 100%;
@@ -586,5 +591,10 @@ img {
 select {
   width: 100%;
   margin-top: 10px;
+}
+body {
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 12px;
 }
 }
