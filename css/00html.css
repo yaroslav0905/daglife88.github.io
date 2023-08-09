@@ -557,3 +557,34 @@ table {
   font-variant-numeric: lining-nums tabular-nums;
   font-feature-settings: "kern", "lnum", "tnum";
 }
+
+
+
+
+@media screen and (max-width: 479px) {
+  .osis-reference.next, .osis-reference.back {
+    color: #0D1010;
+    background: #ffffff;
+    text-decoration: none;
+    padding: 3px 10px;
+    border-radius: 25px;
+    color: #0D1010;
+    font-size: 11px;
+    display: inline-block;
+    text-align: center;
+    text-indent: 0em;
+    float: right;
+}
+a.osis-reference, .osis-reference2 {
+  text-decoration: underline;
+  display: inline-block;
+  float: left;
+}
+img {
+  width: 100%;
+}
+select {
+  width: 100%;
+  margin-top: 10px;
+}
+}
